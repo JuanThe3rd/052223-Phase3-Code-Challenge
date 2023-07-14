@@ -52,9 +52,6 @@ class Concert:
     def introduction(self):
         city = self.venue.city
 
-        if city == 'SAC':
-            city = 'Sac'
-
         return (f'Hello {city}!!!!!, we are {self.band.name} and we\'re from {self.band.hometown}')
     
     '''

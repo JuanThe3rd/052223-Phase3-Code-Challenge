@@ -49,4 +49,4 @@ class TestConcert:
         band.play_in_venue(venue= venue2, date ='Nov 5')
 
         assert band.concerts[0].introduction() == "Hello NYC!!!!!, we are boygenius and we're from NYC"
-        assert band.concerts[1].introduction() == "Hello Sac!!!!!, we are boygenius and we're from NYC"
+        assert band.concerts[1].introduction() == "Hello SAC!!!!!, we are boygenius and we're from NYC"
